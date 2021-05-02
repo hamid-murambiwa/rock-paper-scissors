@@ -1,0 +1,213 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid #3D9970;
+    width: 100%;
+    height: 10%;
+    font-family: helvetica;
+    font-size: 25px;
+    background: url('https://images.freecreatives.com/wp-content/uploads/2016/02/Blue-Pattern-Background-For-Free-Download.jpg') no-repeat 0px;
+    background-size: 1890px 150px;
+    background-color: grey;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-color: #3D9970;
+}
+
+.progress {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    font-family: helvetica;
+    font-size: 35px;
+    font-color: green;
+}
+
+#pg {
+    color: green;
+}
+
+#B {
+    color: red;
+}
+
+.announce-container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    width: 30%;
+    height: 60px;
+    font-size: 30px;
+    background-color: #01FF70;
+}
+
+.result-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 8px solid;
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.userResult {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid;
+    width: 80%;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+.computerResult {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid;
+    width: 80%;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+.result-con {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 60px;
+}
+
+.R1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #FF851B;
+    border-radius: 15px;
+}
+
+.R2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #FF851B;
+    border-radius: 15px;
+}
+
+#h {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 40%;
+    height: 60px;
+    color: #383838;
+    font-size: 20px;
+}
+
+.option-container {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 150px;
+}
+
+img {
+    width: 5px;
+    height: 5px;
+}
+
+.Rock {
+    border: 2px solid;
+    border-radius: 50%;
+    width: 25%;
+    height: 100%;
+    background: url('https://icon-library.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-16.jpg') no-repeat center;
+    background-size: 100px 100px;
+    background-color: #303030;
+}
+
+.Paper {
+    border: 2px solid;
+    border-radius: 50%;
+    width: 25%;
+    height: 100%;
+    background: url('https://en.wiki.forgeofempires.com/images/9/96/Paper_icon.png') no-repeat center;
+    background-size: 100px 100px;
+    background-color: #303030;
+}
+
+.Scissors {
+    border: 2px solid;
+    border-radius: 50%;
+    width: 25%;
+    height: 100%;
+    border: 2px solid;
+    background: url('https://www.goodfreephotos.com/albums/vector-images/blue-scissors-vector-clipart.png') no-repeat 35px;
+    background-size: 100px 100px;
+    background-color: #303030;
+}
+
+hr {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FF4136;
+}
+
+input[type=button]:hover {
+    box-shadow: 0 0 5pt 2pt orange;
+    border: 1px solid #A9A9A9;
+    padding: 8px 11px 8px 11px;
+}
